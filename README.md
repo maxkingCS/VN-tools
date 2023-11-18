@@ -49,7 +49,8 @@ I have just made a python version of the program so that it is easier to read an
 
 # NEW GUIDE (V3 and V4 release)
 
-1. Install the locale emulator first.
+1. Install the locale emulator first. 
+
 2. Clone this repo or download from the release. It is recommended to download from the release as it is more stable.
 ```
 git clone https://github.com/maxkingCS/VN-tools.git
@@ -59,8 +60,18 @@ git clone https://github.com/maxkingCS/VN-tools.git
 ```
 pip install selenium
 ```
-follow a version for V3 and b version for V4.
-5a. Run your update list for the first time. This allows the program to store all the VN paths to the executable. Use the "update.bat". You should now have VNList.json in the VN-tools folder.
+
+Then get your firefox profile with all extension installed(More info at the NOTE below):
+```
+%appdata%
+AppData\Roaming\Mozilla\Firefox\Profiles # Go to this relative path
+```
+Then Copy the folder with "default-release" at the end to the VN-tools folder. Rename the profile folder to "profile-default".
+
+* follow 'a' version for V3 and 'b' version for V4.
+
+5a. Run your update list for the first time. This allows the program to store all the VN paths to the executable.(See NOTE below for more info) Use the "update.bat". You should now have VNList.json in the VN-tools folder.
+
 6a. Now you can run the program with the runVN.bat or
 ```
 python VNSelLE.py
@@ -70,11 +81,15 @@ python VNSelLE.py
 python mainGUI.py
 ```
 6b. For the first time, you would not see anything in the list. Now click the "Update List" button at the top. It should now refresh with all your VN in a list.
+
 7b. You can click on one of the name and Press "Run Selected" to start the game.
 
 That is it. Just use step 5b whenever you want to run the program.
 
 NOTE: All the VN should be in the VN folder.
+
+The firefox profile must have yomichan and lap-clipboard-inserter extension installed already or install it into the profile later(not test on the second option). yomichan should already be installed with dictionary.
+See this for instrction on yomichan: https://learnjapanese.moe/yomichan/
 
 # OLD Guide (V2 and below release)
 
