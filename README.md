@@ -52,6 +52,8 @@ I have just made a python version of the program so that it is easier to read an
 1. Install the locale emulator first. 
 
 2. Clone this repo or download from the release. It is recommended to download from the release as it is more stable.
+
+Release page: https://github.com/maxkingCS/VN-tools/releases
 ```
 git clone https://github.com/maxkingCS/VN-tools.git
 ```
