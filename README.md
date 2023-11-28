@@ -29,6 +29,9 @@ Other Tools are coming soon. ETA Forever.
 
 
 # New Update
+## update 6
+Fix the relative path problem.
+
 ## update 5
 I have added GUI support to the program now. You can now use the GUI instead on the command line. Though it is a bit unstable. But it is usable now. It is in the v4.0 GUI-alpha release. Use the command below in the folder to run it.
 ```
@@ -36,7 +39,7 @@ python mainGUI.py
 ```
 
 ## update 4
-I have change to using relative paths instead. Now you don't need to chnage all the file path everytime you move the folder. And you don't even need to be the same path as me anymore.
+I have change to using relative paths instead. Now you don't need to change all the file path everytime you move the folder. And you don't even need to be the same path as me anymore.
 I have also added the textractor and Locale Emulator directly. You only need to install the locale emulator now. This is almost a one click installer now.
 
 ## update 3
