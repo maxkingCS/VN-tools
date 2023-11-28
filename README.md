@@ -20,7 +20,7 @@ This program helps you run the VN quicker. It runs the Locale Emulator and Textr
 ## Goal
 - [x] Add Japanese path support
 - [x] Added auto shortcut creation
-- [ ] shortcut support japanese named exe
+- [x] shortcut support japanese named exe
 - [ ] Add custom parameter for better usage
 - [ ] ~~Seperate the list with folder i.e. make it so that you can put the shortcut into different folder and organize them better.~~
 - [x] Add GUI for ease of use
