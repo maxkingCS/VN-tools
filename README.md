@@ -9,6 +9,7 @@ This program helps you run the VN quicker. It runs the Locale Emulator and Textr
 
 ## Prerequisite Tools
 - Locale Emulator(Already packaged in the repo)
+- textractor (https://github.com/Artikash/Textractor/tree/v5.2.0)
 - firefox
 - lap-clipboard-inserter addon (from https://github.com/laplus-sadness/lap-clipboard-inserter or https://addons.mozilla.org/en-US/firefox/addon/lap-clipboard-inserter/)
 - python 3.10 or newer. (This was test on 3.11 but should work for older version)
